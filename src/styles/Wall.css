@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'AeroportRegular';
+    src: url('./fonts/AEROPORT.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportBold';
+    src: url('./fonts/AEROPORTBOLD.OTF') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportLight';
+    src: url('./fonts/AEROPORTLIGHT.OTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportMedium';
+    src: url('./fonts/AEROPORTMEDIUM.OTF') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportMono';
+    src: url('./fonts/AEROPORTMONO.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('./fonts/AEROPORT.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.denied-container {
+    background-color: #313233;
+}
+
+.wall-text {
+    font-family: 'Aeroport Regular', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}

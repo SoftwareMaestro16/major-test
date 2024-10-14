@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: 'AeroportRegular';
+    src: url('./fonts/AEROPORT.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportBold';
+    src: url('./fonts/AEROPORTBOLD.OTF') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportLight';
+    src: url('./fonts/AEROPORTLIGHT.OTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportMedium';
+    src: url('./fonts/AEROPORTMEDIUM.OTF') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeroportMono';
+    src: url('./fonts/AEROPORTMONO.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('./fonts/AEROPORT.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.denied-container {
+    background-color: #313233;
+}
+
+.game-img {
+    position: relative;
+    margin-bottom: -45px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.game-text {
+    padding: -40px;
+    font-family: 'Aeroport Regular', sans-serif;
+    font-size: 12.5px;
+    text-align: center;
+}
+
+.game-text h1 {
+    margin-bottom: -5px; 
+}
+
+.game-text p {
+    font-family: 'Aeroport Light', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+.container {
+    display: grid;
+    place-items: center; 
+    margin-top: 20px;
+}
+
+.rectangle {
+    width: 340px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0px 4px 10px rgba(202, 202, 202, 0.1);
+}
