@@ -254,10 +254,11 @@ body {
     text-align: center;
 }
 
-
 .about-games {
     font-family: 'Aeroport', sans-serif;
-    font-size: 14px;
+    font-size: 13.5px;
     font-weight: light;
-    opacity: 0.45;
+    opacity: 0.4;
+    padding-left: 15px;
+    padding-right: 15px; 
 }
