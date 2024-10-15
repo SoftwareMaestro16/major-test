@@ -104,7 +104,10 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 5%;
+    padding-left: 4%;
+    padding-bottom: -25px;
+    position: relative;
+    top: 5px;
     
 }
 
@@ -118,16 +121,15 @@ body {
     font-family: 'Aeroport', sans-serif;
     font-size: 17px;
     position: relative;
-    top: 18px;
-    margin: 0px;
-    padding: 0;
+    top: 10px;
+    margin-right: 40px;
 }
 
 .durov-reward {
     font-size: 14px;
     font-family: 'Aeroport Light', sans-serif;
     position: relative;
-    
+    bottom: 7px;
 }
 
 .durov-new {
@@ -139,10 +141,7 @@ body {
     background-color: #0bb2ff;
     border-radius: 6px;
     box-shadow: 0px 4px 10px rgba(202, 202, 202, 0.1);
-    margin-right: 48.5px; 
-    position: relative;
-    bottom: 4px;
-
+    margin-left: 5px; /* Отодвигаем на 5 пикселей вправо */
 }
 
 .durov-new-text {
