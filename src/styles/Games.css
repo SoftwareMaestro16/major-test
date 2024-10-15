@@ -109,14 +109,14 @@ body {
 }
 
 .durov-text {
-    padding-left: 3%;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-left: 5%;
 }
 
 .durov-name {
     font-family: 'Aeroport', sans-serif;
     font-size: 17px;
-    padding-left: 3%;
-    padding: 5px;
     position: relative;
     top: 10px;
 }
@@ -124,13 +124,12 @@ body {
 .durov-reward {
     font-size: 14px;
     font-family: 'Aeroport Light', sans-serif;
-    margin-top: 5px;
-    padding-left: 5%;
     position: relative;
-    bottom: 10px;
+    bottom: 7px;
 }
 
 .durov-new {
+    position: absolute;
     width: 33px;
     height: 17.5px;
     background-color: #0bb2ff;
@@ -139,7 +138,9 @@ body {
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin-left: 1px;
+    position: relative;
+    left: -13.5%;
+    margin-left: 4px;
     margin-top: -10px;
 }
 
@@ -158,9 +159,9 @@ body {
     background-color: #0bb2ff;
     color: white;
     border-radius: 11px;
-    border: 0px solid #0bb2ff; 
     position: relative;
-    left: 75%;   
+    left: -5%;
+    border: none;
 }
 
 .container-mini-games {

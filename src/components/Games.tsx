@@ -94,18 +94,22 @@ const Games = () => {
 
               <div className="container-puzzle">
                   <div className="rectangle-puzzle">
+                    <div className="game-item">
                       <div className="durov-img">
-                        <img src={HoldBG} alt="Game Icon" />
-                      </div>
-                      <div className="durov-text">
-                        <h2 className="durov-name">Puzzle Durov</h2>
-                        <h3 className="durov-reward">+5,000<span>⭐</span> </h3>
-                      </div>
-                      <div className="durov-new">
-                        <h3 className="durov-new-text">NEW</h3>
-                      </div>
+                          <img src={HoldBG} alt="Game Icon" />
+                        </div>
+                        <div className="durov-text">
+                          <h2 className="durov-name">Puzzle Durov</h2>
+                          <h3 className="durov-reward">+5,000<span>⭐</span> </h3>
+                        </div>
+                        <div className="durov-new">
+                          <h3 className="durov-new-text">NEW</h3>
+                        </div>
+                        <button className="durov-play">Play</button>
+                    </div>
+              
                   </div>
-                  <button className="durov-play">Play</button>
+                  
               </div>
 
               <div className="container-mini-games">
