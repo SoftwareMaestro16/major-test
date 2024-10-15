@@ -48,8 +48,47 @@ body {
     background-color: #313233;
 }
 
-.invite-text {
-    font-family: 'Aeroport Regular', sans-serif;
-    font-size: 18px;
+.invite-img {
+    position: relative;
+    margin-bottom: -45px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+}
+
+.invite-text {
+    padding: -40px;
+    font-family: 'Aeroport Regular', sans-serif;
+    font-size: 12.5px;
+    text-align: center;
+}
+
+.invite-text h1 {
+    margin-bottom: 5px; 
+}
+
+.invite-text p {
+    font-family: 'Aeroport Light', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+.container-invite {
+    display: grid;
+    grid-template-columns: 5% auto;
+    align-items: center;
+    margin-top: 20px;
+    width: 365px; 
+}
+
+.rectangle-invite {
+    width: 365px;
+    height: 220px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(202, 202, 202, 0.1);
+    display: flex;
+    align-items: center; 
 }

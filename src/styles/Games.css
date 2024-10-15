@@ -76,16 +76,173 @@ body {
     font-size: 17px;
 }
 
-.container {
+.container-puzzle {
     display: grid;
-    place-items: center; 
+    grid-template-columns: 5% auto;
+    align-items: center;
     margin-top: 20px;
+    width: 365px; 
 }
 
-.rectangle {
-    width: 340px;
+.rectangle-puzzle {
+    width: 365px;
     height: 90px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(202, 202, 202, 0.1);
+    display: flex;
+    align-items: center; 
+}
+
+.durov-img img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.durov-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    
+}
+
+.durov-text {
+    padding-left: 3%;
+}
+
+.durov-name {
+    font-family: 'Aeroport', sans-serif;
+    font-size: 17px;
+    padding-left: 3%;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.durov-reward {
+    font-size: 14px;
+    font-family: 'Aeroport Light', sans-serif;
+    margin-top: 5px;
+    padding-left: 5%;
+    position: relative;
+    bottom: 10px;
+}
+
+.durov-new {
+    width: 33px;
+    height: 17.5px;
+    background-color: #0bb2ff;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(202, 202, 202, 0.1);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-left: 1px;
+    margin-top: -10px;
+}
+
+.durov-new-text {
+    font-family: 'Aeroport Light', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.durov-play {
+    font-family: 'Aeroport', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    width: 67px;
+    height: 28px;
+    background-color: #0bb2ff;
+    color: white;
+    border-radius: 11px;
+    border: 0px solid #0bb2ff; 
+    position: relative;
+    left: 75%;   
+}
+
+.container-mini-games {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    width: 365px;
+}
+
+.rectangle-mini-games {
+    width: 345px;
+    height: 242px;
     background-color: #ffffff;
     border-radius: 14px;
     box-shadow: 0px 4px 10px rgba(202, 202, 202, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.game-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: -3px;
+    margin-bottom: 2px;
+}
+
+.hold-img img,
+.roulette-img img,
+.swipe-img img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.hold-text,
+.roulette-text,
+.swipe-text {
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-left: 5%;
+}
+
+.hold-name,
+.roulette-name,
+.swipe-name {
+    font-family: 'Aeroport', sans-serif;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+}
+
+.hold-reward,
+.roulette-reward,
+.swipe-reward {
+    font-size: 14px;
+    font-family: 'Aeroport Light', sans-serif;
+    position: relative;
+    bottom: 7px;
+}
+
+.hold-play,
+.roulette-play,
+.swipe-play {
+    font-family: 'Aeroport', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    width: 67px;
+    height: 28px;
+    background-color: #0bb2ff;
+    color: white;
+    border-radius: 11px;
+    border: none;
+}
+
+.about-games {
+    font-family: 'Aeroport', sans-serif;
+    font-size: 14px;
+    font-weight: light;
+    opacity: 0.45;
 }

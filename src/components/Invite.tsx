@@ -45,7 +45,7 @@ const Invite = () => {
         setIsTg(true);
 
         document.body.style.backgroundColor = 'var(--tg-theme-bg-color)';
-        document.body.style.setProperty('background-color', 'var(--tg-theme-bg-color)', 'important');
+        document.body.style.setProperty('background-color', '#ededed', 'important');
     } 
   }, []);
 
@@ -57,10 +57,16 @@ const Invite = () => {
             </div>
         ) : (
             <div className="tg-container">
-              <div className="invite-text">
-                <h1>Invite</h1>
-              </div>
-                
+                <div className="invite-img">
+                  <h1>⭐</h1>
+                </div>
+
+                <div className="invite-text">
+                  <h1>Invite friends</h1>
+                  <p>You and your friend will receive bonuses
+                  for invitation. How it works?</p>
+                </div>
+              
               <div className="button-panel">
                 <div className="button" onClick={handleTasksClick}>
                     <span className="icon">⚡</span>
@@ -85,6 +91,13 @@ const Invite = () => {
                     <span className="label">Wall</span>
                 </div>
             </div>
+
+            <div className="container-invite">
+                  <div className="rectangle-invite">
+                      
+                  </div>
+                  
+              </div>
 
             <BackButton />
 

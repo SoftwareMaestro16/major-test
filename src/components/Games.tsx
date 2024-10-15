@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import WebAppSDK from '@twa-dev/sdk';
 import "../styles/Games.css";
 import { BackButton } from '../webapp/BackButton';
+import HoldBG from '../assets/HoldBG.jpg';
 
 declare global {
   interface Window {
@@ -91,15 +92,60 @@ const Games = () => {
                   </div>
               </div>
 
-              <div className="container">
-                  <div className="rectangle"></div>
-                  {/* <div className="durov-img">
-                    <img src={HoldBG} alt="Game Icon" />
-                  </div> */}
-                  
+              <div className="container-puzzle">
+                  <div className="rectangle-puzzle">
+                      <div className="durov-img">
+                        <img src={HoldBG} alt="Game Icon" />
+                      </div>
+                      <div className="durov-text">
+                        <h2 className="durov-name">Puzzle Durov</h2>
+                        <h3 className="durov-reward">+5,000<span>⭐</span> </h3>
+                      </div>
+                      <div className="durov-new">
+                        <h3 className="durov-new-text">NEW</h3>
+                      </div>
+                  </div>
+                  <button className="durov-play">Play</button>
               </div>
 
+              <div className="container-mini-games">
+                <div className="rectangle-mini-games">
+                    <div className="game-item">
+                        <div className="hold-img">
+                            <img src={HoldBG} alt="Game Icon" />
+                        </div>
+                        <div className="hold-text">
+                            <h2 className="hold-name">Hold Coin</h2>
+                            <h3 className="hold-reward">+915<span>⭐</span> </h3>
+                        </div>
+                        <button className="hold-play">Play</button>
+                    </div>
 
+                    <div className="game-item">
+                        <div className="roulette-img">
+                            <img src={HoldBG} alt="Game Icon" />
+                        </div>
+                        <div className="roulette-text">
+                            <h2 className="roulette-name">Roulette</h2>
+                            <h3 className="roulette-reward">+10,000<span>⭐</span> </h3>
+                        </div>
+                        <button className="roulette-play">Play</button>
+                    </div>
+
+                    <div className="game-item">
+                        <div className="swipe-img">
+                            <img src={HoldBG} alt="Game Icon" />
+                        </div>
+                        <div className="swipe-text">
+                            <h2 className="swipe-name">Swipe Coin</h2>
+                            <h3 className="swipe-reward">+3,000<span>⭐</span> </h3>
+                        </div>
+                        <button className="swipe-play">Play</button>
+                        </div>
+                    </div>
+                </div>
+                <p className="about-games">Maximum possible rating points that can be earned per one game session.</p>
+                
 
               <BackButton />
                 
