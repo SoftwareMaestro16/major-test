@@ -85,7 +85,7 @@ body {
 }
 
 .rectangle-puzzle {
-    width: 365px;
+    width: 95vw; 
     height: 90px;
     background-color: #ffffff;
     border-radius: 16px;
@@ -171,7 +171,7 @@ body {
 }
 
 .rectangle-mini-games {
-    width: 345px;
+    width: 95vw; 
     height: 242px;
     background-color: #ffffff;
     border-radius: 14px;
