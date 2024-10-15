@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import WebAppSDK from '@twa-dev/sdk';
 import "../styles/Games.css";
 import { BackButton } from '../webapp/BackButton';
-import HoldBG from '../assets/HoldBG.jpg';
+import { PuzzleIcon, HoldIcon, SpinIcon, SwipeIcon } from '../assets/images';
 
 declare global {
   interface Window {
@@ -96,7 +96,7 @@ const Games = () => {
                   <div className="rectangle-puzzle">
                     <div className="game-item">
                       <div className="durov-img">
-                          <img src={HoldBG} alt="Game Icon" />
+                          <img src={PuzzleIcon} alt="Puzzle Durov" />
                         </div>
                         <div className="durov-text">
                           <h2 className="durov-name">Puzzle Durov</h2>
@@ -116,7 +116,7 @@ const Games = () => {
                 <div className="rectangle-mini-games">
                     <div className="game-item">
                         <div className="hold-img">
-                            <img src={HoldBG} alt="Game Icon" />
+                            <img src={HoldIcon} alt="Hold Coin Icon" />
                         </div>
                         <div className="hold-text">
                             <h2 className="hold-name">Hold Coin</h2>
@@ -127,7 +127,7 @@ const Games = () => {
 
                     <div className="game-item">
                         <div className="roulette-img">
-                            <img src={HoldBG} alt="Game Icon" />
+                            <img src={SpinIcon} alt="Roulette Icon" />
                         </div>
                         <div className="roulette-text">
                             <h2 className="roulette-name">Roulette</h2>
@@ -138,7 +138,7 @@ const Games = () => {
 
                     <div className="game-item">
                         <div className="swipe-img">
-                            <img src={HoldBG} alt="Game Icon" />
+                            <img src={SwipeIcon} alt="Swipe Coin Icon" />
                         </div>
                         <div className="swipe-text">
                             <h2 className="swipe-name">Swipe Coin</h2>
