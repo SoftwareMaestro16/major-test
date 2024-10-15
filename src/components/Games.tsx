@@ -102,9 +102,9 @@ const Games = () => {
                           <h2 className="durov-name">Puzzle Durov</h2>
                           <h3 className="durov-reward">+5,000<span>⭐</span> </h3>
                         </div>
-                        <div className="durov-new">
+                        {/* <div className="durov-new">
                           <h3 className="durov-new-text">NEW</h3>
-                        </div>
+                        </div> */}
                         <button className="durov-play">Play</button>
                     </div>
               

@@ -243,10 +243,13 @@ body {
     background-color: #0bb2ff;
     color: white;
     border-radius: 11px;
-    position: relative;
-    left: -1.5%;
     border: none;
+    display: flex; /* Добавляем Flexbox */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    text-align: center;
 }
+
 
 .about-games {
     font-family: 'Aeroport', sans-serif;
