@@ -110,13 +110,13 @@ body {
 
 .star-invite {
     font-size: 35px;
-    padding-left: 10px;
+    padding-left: 28%;
 }
 
 .text-invite {
     display: flex;
     flex-direction: column;
-    margin-left: 27px; 
+    margin-left: 30px; 
 }
 
 .text-invite h2 {
@@ -145,13 +145,18 @@ body {
 
 .invite-btn {
     font-family: 'Aeroport Regular', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     background-color: #0bb2ff;
-    border: solid #0bb2ff;
+    border: none;
     color: white;
     border-radius: 10px;
     width: 69vw;
     height: 45px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
 }
 
 .copy-btn {
@@ -160,7 +165,11 @@ body {
     background-color: #add2e4;
     color: white;
     border-radius: 10px;
-    border: solid #add2e4;
+    border: none;
     width: 12vw;
     height: 45px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
 }

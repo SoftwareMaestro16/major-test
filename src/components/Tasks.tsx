@@ -45,7 +45,7 @@ const Tasks = () => {
         setIsTg(true);
 
         document.body.style.backgroundColor = 'var(--tg-theme-bg-color)';
-        document.body.style.setProperty('background-color', 'var(--tg-theme-bg-color)', 'important');
+        document.body.style.setProperty('background-color', '#ededed', 'important');
     } 
   }, []);
 
