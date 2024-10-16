@@ -59,14 +59,15 @@ body {
 }
 
 .game-text {
-    padding: -40px;
+    padding: -30px;
     font-family: 'Aeroport Regular', sans-serif;
-    font-size: 12.5px;
+    font-size: 11px;
     text-align: center;
 }
 
 .game-text h1 {
-    margin-bottom: -5px; 
+    padding: 2px;
+    margin-bottom: 0px; 
 }
 
 .game-text p {
@@ -80,7 +81,7 @@ body {
     display: grid;
     grid-template-columns: 5% auto;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 365px; 
 }
 

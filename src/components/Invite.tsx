@@ -93,11 +93,30 @@ const Invite = () => {
             </div>
 
             <div className="container-invite">
-                  <div className="rectangle-invite">
-                      
-                  </div>
-                  
-              </div>
+                <div className="rectangle-invite">
+                    <div className="info-invite info-without-premium">
+                        <div className="star-invite">⭐</div>
+                        <div className="text-invite">
+                            <h2>Invite a friend</h2>
+                            <p>+750 to you and your friend</p>
+                        </div>
+                    </div>
+
+                    <div className="info-invite info-premium">
+                        <div className="star-invite">⭐</div>
+                        <div className="text-invite">
+                            <h2>Invite a friend with Telegram Premium</h2>
+                            <p>+1000 to you and your friend</p>
+                        </div>
+                    </div>
+
+                    <div className="invite-buttons">
+                        <button className="invite-btn">Invite Friend</button>
+                        <button className="copy-btn">🗳</button>
+                    </div>
+                </div>
+            </div>
+
 
             <BackButton />
 
